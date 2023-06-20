@@ -1117,7 +1117,7 @@ button#sidebarCollapse {
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 	position: relative;
 	overflow: hidden;
-	background: #ef4023;
+	background: #FF9C09;
 	-webkit-transition-property: color;
 	transition-property: color;
 	-webkit-transition-duration: 0.3s;
@@ -1138,7 +1138,7 @@ button#sidebarCollapse {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #ef4023;
+	background: #241F20;
 	border-radius: 100%;
 	-webkit-transform: scale(0);
 	transform: scale(0);
@@ -1159,7 +1159,7 @@ button#sidebarCollapse {
 
 a.hvr-radial-out:hover,
 a.hvr-radial-out:focus {
-	color: #fff;
+	color: #000;
 }
 
 
@@ -2383,6 +2383,10 @@ ul.social_icon li {
     background: #241F20;
 }
 
+.dark_blue_layout_o {
+    background: #ff9c09;
+}
+
 .readmore_bt {
     color: #FFF;
     font-size: 18px;
@@ -2666,8 +2670,9 @@ ul.bottom_menu li {
     background-position: center center;
     min-height: auto;
     padding: 45px 65px 65px;
-    max-width: 770px;
-    margin: 142px 0;
+    align-items: center;
+    max-width: 80%;
+    margin: 142px 142px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
 }
 
@@ -2804,7 +2809,7 @@ ul.bottom_menu li {
     .menu_section ul li {
       float: left;
       width: 100%;
-      border-bottom: solid #222 1px;
+      border-bottom: solid #D0CDCD 1px;
     }
 
     #sidebar ul li.active>a,
@@ -2917,6 +2922,7 @@ form.news_submit_form .field button {
 
 .work_blog {
 	position: relative;
+	align-items: center;
 	transition: ease all 0.4s;
 	overflow: hidden;
 }
@@ -2926,14 +2932,18 @@ form.news_submit_form .field button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #FF9C09;
+    background: #241F20;
     top: -101%;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: ease all 0.4s;
-    visibility: hidden;
-    opacity: 0;
+    visibility: ;
+    opacity: -5;
+}
+
+.hover_workblog font{
+ 	color: #fff;
 }
 
 .work_blog:hover .hover_workblog,
@@ -2942,6 +2952,8 @@ form.news_submit_form .field button {
     opacity: 1;
     top: 0%;
 }
+
+
 
 a.readmore_bt::after {
     content: "";
@@ -2956,7 +2968,7 @@ a.readmore_bt::after {
 }
 
 .theme_color_bg {
-	background: #fc3726;
+	background: #ff9c09;
 }
 
 footer.footer-box .heading_main h2 {
